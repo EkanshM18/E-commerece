@@ -5,10 +5,10 @@ import PhoneImage from "../assets/Phone1.png";
 export default function Item(props) {
     return(
         <div className="p-4 border-black border-[1px] rounded-md m-4">
-            <div>
-                <img className="h-50 w-50" src={PhoneImage}/>
+            <div className="flex justify-center">
+                <img className="" width={200} height={200} src={PhoneImage}/>
             </div>
-            <div>{props.title}</div>
+            <div className="font-semibold">{props.title}</div>
             <div className="flex flex-row  my-2">
                 {
                     [...Array(props.star)].map((_,index) => (
