@@ -4,6 +4,7 @@ import Product from "./pages/product";
 import Features from "./pages/Features";
 import Special from "./pages/Special";
 import Customer from "./pages/Customer";
+import Updated from "./pages/Updated";
 
 function App() {
   return(
@@ -13,6 +14,7 @@ function App() {
      <Features/>
      <Special/>
      <Customer/>
+     <Updated/>
     </div>
   )
 }
