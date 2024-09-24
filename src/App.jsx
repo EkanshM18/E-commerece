@@ -1,6 +1,6 @@
 import React from "react";
 import Landing from "./pages/Landing";
-import Product from "./pages/product";
+import Product from "./pages/Product";
 import Features from "./pages/Features";
 import Special from "./pages/Special";
 import Customer from "./pages/Customer";
